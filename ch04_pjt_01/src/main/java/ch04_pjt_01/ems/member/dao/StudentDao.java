@@ -20,7 +20,7 @@ public class StudentDao {
 		studentDB.put(student.getsNum(), student);
 	}
 	
-	public void insert(String sNum) {
+	public void delete(String sNum) {
 		studentDB.remove(sNum);
 	}
 	
